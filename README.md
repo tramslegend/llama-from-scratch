@@ -168,7 +168,7 @@ xs, ys = get_batches(dataset, 'train', MASTER_CONFIG['batch_size'], MASTER_CONFI
 
 
 
-What's interesting about implementing papers is that there are two aspects to the model *working*: compilation (do your tensors all match up from layer to layer), and training (does the loss go down). Figuring out how to ensure that each of your compoenents is working is key to developing your model in a predictable, engineering-minded way.
+What's interesting about implementing papers is that there are two aspects to the model *working*: compilation (do your tensors all match up from layer to layer), and training (does the loss go down). Figuring out how to ensure that each of your components is working is key to developing your model in a predictable, engineering-minded way.
 
 That's why we're also going to define the method for how we're going to evaluate the model. We want to do this before we even define the model, because we want to be able to use it to evaluate the model as we're training it. 
 
